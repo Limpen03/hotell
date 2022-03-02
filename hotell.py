@@ -12,7 +12,7 @@ class Main():
         bottomFrame = Frame(root)
         bottomFrame.pack()
 
-        lbltitle = Label(self.topFrame, text="Välkommen till Scandic hotell!", font=("Arial", 25))
+        lbltitle = Label(self.topFrame, text="Välkommen till hotell Transylvanien!", font=("Arial", 25))
         lbltitle.grid(row=0, column=0, sticky=E)
 
 
