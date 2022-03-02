@@ -1,0 +1,2 @@
+# hotell
+Vårat hotell
