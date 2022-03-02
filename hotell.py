@@ -4,7 +4,7 @@ from tkinter import *
 class Main():
     def __init__(self, root):
         root.wm_title("Inloggningssida")
-        root.minsize(500, 500)
+        root.minsize(600, 500)
 
         self.topFrame = Frame(root)
         self.topFrame.pack()
