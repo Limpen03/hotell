@@ -1,6 +1,12 @@
 import tkinter as tk
 from tkinter import *
 
+class Guest():
+    def __init__(self, rooms, rumsnr):
+        self.rooms = rooms
+class Room():
+    def __init__(self, beds, roomnr):
+        self.beds = beds
 class Main():
     def __init__(self, root):
         root.wm_title("Inloggningssida")
