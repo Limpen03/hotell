@@ -16,7 +16,6 @@ class Main():
         lbltitle.grid(row=0, column=0, sticky=E)
 
 
-
 root = Tk()
-Main(root )
+Main(root)
 root.mainloop()
