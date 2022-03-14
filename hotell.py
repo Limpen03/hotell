@@ -2,9 +2,10 @@ import tkinter as tk
 from tkinter import *
 
 class Guest():
-    def __init__(self, rooms, rumsnr):
+    def __init__(self, rooms, rumsnr, ssr):
         self.rooms = rooms
         self.rumsnr = rumsnr
+        self.ssr = ssr
 class Room():
     def __init__(self, beds, roomnr):
         self.beds = beds
