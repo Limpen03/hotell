@@ -6,7 +6,7 @@ class Guest():
         self.rooms = rooms
         self.rumsnr = rumsnr
 class Room():
-    def __init__(self, beds, roomnr, booked):
+    def __init__(self, beds, roomnr):
         self.beds = beds
         self.roomnr = roomnr
         self.booked = False
