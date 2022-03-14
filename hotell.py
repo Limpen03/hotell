@@ -29,10 +29,10 @@ class Menuprogram():
         lbltitle = Label(self.topFrame, text="Välkommen till hotell Transylvanien!", font=("Times", 20, "bold"))
         lbltitle.grid(row=0, column=0, sticky=E)
 
-        btncheck_in = Button(self.bottomFrame, text="Checka in", font=("Times", 15, "bold"), width= 20)
+        btncheck_in = Button(self.bottomFrame, text="Checka in", font=("Times", 15, "bold"), width= 25, height= 5)
         btncheck_in.grid(row=1, column=0, sticky=E)
 
-        btncheck_out = Button(self.bottomFrame, text="Checka ut", font=("Times", 15, "bold"), width= 20)
+        btncheck_out = Button(self.bottomFrame, text="Checka ut", font=("Times", 15, "bold"), width= 25, height=5)
         btncheck_out.grid(row=2, column=0, sticky=E)
 
 
