@@ -1,6 +1,11 @@
 import tkinter as tk
 from tkinter import *
 
+roomswithfour = [(4,6),(4,7),(4,8),(4,9),(4,10)]
+roomswiththree = [(3,1),(3,2),(3,3),(3,4),(3,5)]
+
+totalRooms = []
+
 class Guest():
     def __init__(self, rooms, rumsnr, ssn):
         self.rooms = rooms
@@ -21,6 +26,12 @@ class Menuprogram():
         root.minsize(600, 500)
         root.maxsize(600, 500)
 
+        for u in roomswiththree:
+            totalRooms.append(Room(*u))
+        for i in roomswithfour:
+            totalRooms.append(Room(*i))
+
+
         self.topFrame = Frame(root)
         self.topFrame.pack()
 
@@ -35,6 +46,10 @@ class Menuprogram():
 
         btncheck_out = Button(self.bottomFrame, text="Checka ut", font=("Times", 15, "bold"), width= 25, height=5)
         btncheck_out.grid(row=2, column=0, sticky=E)
+
+    def checkInButton(self):
+        pass
+
 
 
 root = Tk()
